@@ -11,7 +11,7 @@ namespace BloggerDomain.Repositories
     {
         public bool IsAuthorBlogOwner(int authorId, int blogId);
 
-        public Blog GetBlog(int blogId);
+        public Blog? GetBlog(int blogId);
 
         public ICollection<Blog> GetBlogs();
 
